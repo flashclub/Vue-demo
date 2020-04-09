@@ -8,12 +8,14 @@
     <!-- <AsyncComponent /> -->
     <!-- <KeepAlive /> -->
     <!-- <Masks /> -->
-    <AdvancedVmodel />
+    <!-- <AdvancedVmodel /> -->
+    <Mixin />
   </div>
 </template>
 
 <script>
 import Com from '@/components/Element/Index'
+import Mixin from '@/components/Advanced/Mixin'
 import Vmodel from '@/components/BaseUse/Vmodel'
 import SlotDemo from '@/components/Advanced/SlotDemo'
 import NextTick from '@/components/Advanced/NextTick'
@@ -25,6 +27,7 @@ export default {
   name: 'App',
   components: {
     Com,
+    Mixin,
     Vmodel,
     SlotDemo,
     NextTick,

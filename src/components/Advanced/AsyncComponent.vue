@@ -20,7 +20,7 @@ export default {
     AC1,
     AC2,
     // 异步组件，
-    // 在大兴应用中可以提高vue性能
+    // 在大型应用中可以提高vue性能
     'AC3': ()=> import ('./components/ActivityCom3')
   },
   data() {
