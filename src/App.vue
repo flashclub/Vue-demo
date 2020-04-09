@@ -7,7 +7,8 @@
     <!-- <NextTick /> -->
     <!-- <AsyncComponent /> -->
     <!-- <KeepAlive /> -->
-    <Masks />
+    <!-- <Masks /> -->
+    <AdvancedVmodel />
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import SlotDemo from '@/components/Advanced/SlotDemo'
 import NextTick from '@/components/Advanced/NextTick'
 import KeepAlive from '@/components/Advanced/KeepAlive'
 import AsyncComponent from '@/components/Advanced/AsyncComponent'
+import AdvancedVmodel from '@/components/Advanced/Vmodel'
 import Masks from '@/components/GetMask/Masks'
 export default {
   name: 'App',
@@ -29,6 +31,7 @@ export default {
     KeepAlive,
     AsyncComponent,
     Masks,
+    AdvancedVmodel,
   }
 }
 </script>
