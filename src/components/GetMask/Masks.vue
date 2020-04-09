@@ -27,6 +27,8 @@ export default {
     }
   },
   mounted() {
+    console.log(111);
+    
     this.userAgent = window.navigator.userAgent
       .toLowerCase()
       .match(/MicroMessenger/i) && window.navigator.userAgent
