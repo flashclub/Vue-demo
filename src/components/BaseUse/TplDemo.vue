@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <div>
-      <p>文本插值{{message}}</p>
+      <p>文本插值{{ message }}</p>
       <p>js表达式</p>
       <p :id="dynamicId">动态属性</p>
       <p v-html="rawHtml">
@@ -15,9 +15,9 @@
 export default {
   data() {
     return {
-      message: '这是message',
+      message: "这是message",
       flag: false,
-      rawHtml: '指令 - 原始html<b>加粗</b><i>斜体</i>',
+      rawHtml: "指令 - 原始html<b>加粗</b><i>斜体</i>",
       dynamicId: `id-${Date.now()}`
     };
   },
@@ -25,6 +25,4 @@ export default {
   methods: {}
 };
 </script>
-<style>
-
-</style>
+<style></style>

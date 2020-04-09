@@ -5,20 +5,18 @@
 
     <p v-show="a === 'a'">v-show a = 'a'</p>
     <p v-show="a !== 'a'">v-shwo a = 'b'</p>
-    <div @click="a ==='a' ? a = 'a' : a = 'b'">改值</div>
+    <div @click="a === 'a' ? (a = 'a') : (a = 'b')">改值</div>
   </div>
 </template>
 <script>
 export default {
   data() {
     return {
-      a: 'a'
+      a: "a"
     };
   },
   mounted() {},
   methods: {}
 };
 </script>
-<style>
-
-</style>
+<style></style>

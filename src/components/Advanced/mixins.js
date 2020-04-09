@@ -1,10 +1,8 @@
 export default {
-  data(){
-    return {
-
-    }
+  data() {
+    return {};
   },
-  mounted(){
-    console.log('mixin mounted');
+  mounted() {
+    console.log("mixin mounted");
   }
-}
+};

@@ -5,20 +5,19 @@
   </div>
 </template>
 <script>
-import event from './event.js'
+import event from "./event.js";
 export default {
   data() {
     return {
       val: ""
     };
   },
-  mounted() {
-  },
+  mounted() {},
   methods: {
     addInfo() {
       this.$emit("addInfo", this.val);
       event.$emit("inputEvent", this.val);
-    },
+    }
   }
 };
 </script>

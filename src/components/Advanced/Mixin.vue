@@ -2,9 +2,9 @@
   <div class=""></div>
 </template>
 <script>
-import mixin from './mixins.js'
+import mixin from "./mixins.js";
 export default {
-  mixins:[mixin],
+  mixins: [mixin],
   data() {
     return {};
   },
@@ -12,6 +12,4 @@ export default {
   methods: {}
 };
 </script>
-<style>
-
-</style>
+<style></style>

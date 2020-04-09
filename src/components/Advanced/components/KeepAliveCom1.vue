@@ -10,38 +10,36 @@ export default {
   },
 
   beforeCreate() {
-    console.log('keepalivecom1 beforeCreate');
+    console.log("keepalivecom1 beforeCreate");
   },
   created() {
-    console.log('keepalivecom1 created');
+    console.log("keepalivecom1 created");
   },
-  beforeMount(){
-    console.log('keepalivecom1 beforeMount');
+  beforeMount() {
+    console.log("keepalivecom1 beforeMount");
   },
   mounted() {
-    console.log('keepalivecom1 mounted');
+    console.log("keepalivecom1 mounted");
   },
-  beforeUpdate(){
-    console.log('keepalivecom1 beforeUpdate');
+  beforeUpdate() {
+    console.log("keepalivecom1 beforeUpdate");
   },
   updated() {
-    console.log('keepalivecom1 updated');
+    console.log("keepalivecom1 updated");
   },
   activated() {
-    console.log('keepalivecom1 activated');
+    console.log("keepalivecom1 activated");
   },
   deactivated() {
-    console.log('keepalivecom1 deactivated');
+    console.log("keepalivecom1 deactivated");
   },
-  beforeDestroy(){
-    console.log('keepalivecom1 beforeDestroy');
+  beforeDestroy() {
+    console.log("keepalivecom1 beforeDestroy");
   },
   destroyed() {
-    console.log('keepalivecom1 销毁');
+    console.log("keepalivecom1 销毁");
   },
-  methods: {},
+  methods: {}
 };
 </script>
-<style>
-
-</style>
+<style></style>

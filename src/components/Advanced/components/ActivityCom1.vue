@@ -9,32 +9,30 @@ export default {
     return {};
   },
   beforeCreate() {
-    console.log('AC1 beforeCreate');
+    console.log("AC1 beforeCreate");
   },
   created() {
-    console.log('AC1 created');
+    console.log("AC1 created");
   },
-  beforeMount(){
-    console.log('AC1 beforeMount');
+  beforeMount() {
+    console.log("AC1 beforeMount");
   },
   mounted() {
-    console.log('AC1 mounted');
+    console.log("AC1 mounted");
   },
-  beforeUpdate(){
-    console.log('AC1 beforeUpdate');
+  beforeUpdate() {
+    console.log("AC1 beforeUpdate");
   },
   updated() {
-    console.log('AC1 updated');
+    console.log("AC1 updated");
   },
-  beforeDestroy(){
-    console.log('AC1 beforeDestroy');
+  beforeDestroy() {
+    console.log("AC1 beforeDestroy");
   },
   destroyed() {
-    console.log('AC1 销毁');
+    console.log("AC1 销毁");
   },
   methods: {}
 };
 </script>
-<style>
-
-</style>
+<style></style>

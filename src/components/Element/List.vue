@@ -6,7 +6,7 @@
   </div>
 </template>
 <script>
-import event from './event.js'
+import event from "./event.js";
 
 export default {
   props: {
@@ -24,24 +24,21 @@ export default {
     event.$on("inputEvent", this.inputEvent);
   },
   beforeUpdate() {
-    console.log('list beforeupdate');
-    
+    console.log("list beforeupdate");
   },
   updated() {
-    console.log('list updated');
-    
+    console.log("list updated");
   },
   methods: {
-    inputEvent(val){
-      console.log('dddd',val);
-      
+    inputEvent(val) {
+      console.log("dddd", val);
     }
   },
   beforeDestroy() {
     // 及时销毁，避免内存泄露
-    console.log('销毁list组件');
-    event.$off('inputEvent',this.inputEvent)
-  },
+    console.log("销毁list组件");
+    event.$off("inputEvent", this.inputEvent);
+  }
 };
 </script>
 <style></style>

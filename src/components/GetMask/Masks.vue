@@ -19,7 +19,10 @@ export default {
   computed: {
     isWX() {
       var ua = window.navigator.userAgent.toLowerCase();
-      if (ua.match(/MicroMessenger/i) && (ua.match(/MicroMessenger/i)[0] === "micromessenger")) {
+      if (
+        ua.match(/MicroMessenger/i) &&
+        ua.match(/MicroMessenger/i)[0] === "micromessenger"
+      ) {
         return true;
       } else {
         return false;
@@ -28,12 +31,10 @@ export default {
   },
   mounted() {
     console.log(111);
-    
-    this.userAgent = window.navigator.userAgent
-      .toLowerCase()
-      .match(/MicroMessenger/i) && window.navigator.userAgent
-      .toLowerCase()
-      .match(/MicroMessenger/i)[0];
+
+    this.userAgent =
+      window.navigator.userAgent.toLowerCase().match(/MicroMessenger/i) &&
+      window.navigator.userAgent.toLowerCase().match(/MicroMessenger/i)[0];
   },
   methods: {}
 };

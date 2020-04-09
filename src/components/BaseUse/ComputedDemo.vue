@@ -1,9 +1,9 @@
 <template>
   <div class="computed">
     <div @click="changeName">改变name</div>
-    <p>name : {{name}}</p>
+    <p>name : {{ name }}</p>
     <div @click="changeNum2">改变数字</div>
-    <p>数字{{num}}</p>
+    <p>数字{{ num }}</p>
   </div>
 </template>
 <script>
@@ -17,38 +17,36 @@ num2的形式接受get和set，get必须return一个值
 export default {
   data() {
     return {
-      message :'',
-      num: 5,
+      message: "",
+      num: 5
     };
   },
   computed: {
-    name(val1, val2){
-      console.log(val1 === this,val2);
-      return this.message
+    name(val1, val2) {
+      console.log(val1 === this, val2);
+      return this.message;
     },
     num2: {
-      get(val1,val2){
-        console.log(val1,val2);
-        
-        return this.num
+      get(val1, val2) {
+        console.log(val1, val2);
+
+        return this.num;
       },
-      set(val1,val2){
-        console.log(val1,val2);
-        this.num = val1
+      set(val1, val2) {
+        console.log(val1, val2);
+        this.num = val1;
       }
     }
   },
   mounted() {},
   methods: {
-    changeName(){
-      this.message = 'laughing'
+    changeName() {
+      this.message = "laughing";
     },
-    changeNum2(){
-      ++this.num2
+    changeNum2() {
+      ++this.num2;
     }
   }
 };
 </script>
-<style>
-
-</style>
+<style></style>

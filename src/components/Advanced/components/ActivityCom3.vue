@@ -9,32 +9,30 @@ export default {
     return {};
   },
   beforeCreate() {
-    console.log('AC3 beforeCreate');
+    console.log("AC3 beforeCreate");
   },
   created() {
-    console.log('AC3 created');
+    console.log("AC3 created");
   },
-  beforeMount(){
-    console.log('AC3 beforeMount');
+  beforeMount() {
+    console.log("AC3 beforeMount");
   },
   mounted() {
-    console.log('AC3 mounted');
+    console.log("AC3 mounted");
   },
-  beforeUpdate(){
-    console.log('AC3 beforeUpdate');
+  beforeUpdate() {
+    console.log("AC3 beforeUpdate");
   },
   updated() {
-    console.log('AC3 updated');
+    console.log("AC3 updated");
   },
-  beforeDestroy(){
-    console.log('AC3 beforeDestroy');
+  beforeDestroy() {
+    console.log("AC3 beforeDestroy");
   },
   destroyed() {
-    console.log('AC3 销毁');
+    console.log("AC3 销毁");
   },
   methods: {}
 };
 </script>
-<style>
-
-</style>
+<style></style>
