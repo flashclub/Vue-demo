@@ -9,7 +9,7 @@
 
     <input
       type="text"
-      :value="text"
+      :value="text1"
       @input="$emit('change', $event.target.value)"
     />
   </div>
@@ -24,11 +24,11 @@
 
 export default {
   model: {
-    prop: "text",
+    prop: "text1",
     event: "change"
   },
   props: {
-    text: {
+    text1: {
       type: String,
       default() {
         return "";
@@ -38,7 +38,13 @@ export default {
   data() {
     return {};
   },
-  mounted() {},
+  mounted() {
+    console.log('mounted');
+    console.log(this.text);
+    console.log(this.text1);
+    
+    this.text = this.text1
+  },
   methods: {}
 };
 </script>

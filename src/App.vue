@@ -8,8 +8,8 @@
     <!-- <AsyncComponent /> -->
     <!-- <KeepAlive /> -->
     <!-- <Masks /> -->
-    <!-- <AdvancedVmodel /> -->
-    <Mixin />
+    <AdvancedVmodel />
+    <!-- <Mixin /> -->
   </div>
 </template>
 
